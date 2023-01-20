@@ -1,0 +1,58 @@
+.nav_bst{
+    background-color: black;
+}
+    
+.nav__bst--botton{
+    background-color: rgba(255, 255, 255, 0.305);
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding-top: 2rem;
+}
+
+.flex__bstend{
+    justify-content: end ;
+}
+
+.header{
+    &__logo{
+        height: 100px;
+        width: 200px;
+            }
+    &__navitem{
+        display: inline-block;
+        padding: 1rem;
+              }
+    
+    &__navanchor{
+        color: rgb(192, 187, 187);
+        font-family: "Monda", sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        font-style: normal;
+        line-height: 33px;
+        line-height: 100%;
+
+        &:hover{
+            text-shadow: 0 0.1rem 0.4rem rgb(255, 0, 0);
+            font-size: 1rem;  
+        }
+
+        &--activo{
+            text-shadow: 0rem 0.2rem 0.3rem rgb(255, 1, 1) ;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            font-style: normal;
+            line-height: 33px;
+            line-height: 100%;
+        }
+
+    }
+
+}
+
+

@@ -1,0 +1,49 @@
+/*INICIA CLASES EN video*/
+.contenedor__generalvideos{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+.mainvideo{
+    min-height: 100vh;
+    background-image: url(../img/fondofuego.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: rgb(192, 187, 187);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+.main__contenedor__peque{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.main__contenedor{
+    display: flex;
+    min-height: 90vh;
+    gap: 1rem;
+    justify-content: center;
+}
+.video__link{
+    box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.695) ;
+}
+
+.tam__chico{
+    width: 200px;
+    height: 200px;
+}
+.tam__grande{
+    width: 650px;
+    height: 410px;
+}
+    
+
+/*FINALIZA CLASES EN video*/

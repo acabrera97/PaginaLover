@@ -1,0 +1,33 @@
+/*INICIA CLASES EN biogafia*/
+.contenedor__generalbio{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.mainbio{
+    min-height: 100vh;
+    background-image: url(../img/fondocuero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.main__divbio{
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main__p{
+    color: rgb(192, 187, 187);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    text-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.466) ;
+        
+}
+/*FINALIZA CLASES EN biogafia*/

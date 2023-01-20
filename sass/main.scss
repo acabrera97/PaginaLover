@@ -1,14 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.html{
-    font-size: 10px;
-}
-
-.anchocontenedor{
-    max-width: 1920px;
-    margin: auto;
-}
+@import "./imports/reset";
+@import "./imports/header";
+@import "./imports/text";
+@import "./imports/index";
+@import "./imports/biografia";
+@import "./imports/musica";
+@import "./imports/videos";
+@import "./imports/merch";
+@import "./imports/galeria";
+@import "./imports/contacto";
+@import "./imports/footer";
+@import "./imports/media-queris";

@@ -1,0 +1,47 @@
+/*INICIA CLASES EN musica*/
+.contenedor__generalmusica{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contenedor__main{
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainmusica{
+    min-height: 100vh;
+    background-image: url(../img/fondomusica.png);
+    background-size: cover;
+}
+
+.main__h2musica{
+    color: rgb(236, 232, 232);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    text-decoration:solid;
+    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.main__divmusic{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.main__imgmusica{
+    background-color: rgba(255, 255, 255, 0.634);
+    border-radius: 50px;
+    box-shadow: 0 0.3rem 0.05rem rgba(58, 54, 54, 0.644);
+}
+
+.main__imgmusica:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 0, 0);
+}
+/*FINALIZA CLASES EN musica*/
