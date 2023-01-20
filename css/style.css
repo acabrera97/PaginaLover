@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    font-size: 10px;
+}
+
+.anchocontenedor{
+    max-width: 1920px;
+    margin: auto;
+}
+
+/*INICIA METODOLOGIA BEM*/
+
+.nav_bst{
+background-color: black;
+}
+
+.nav__bst--botton{
+    background-color: rgba(255, 255, 255, 0.305);
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding-top: 2rem;
+}
+
+.flex__bstend{
+    justify-content: end ;
+}
+
+.header__logo{
+    height: 100px;
+    width: 200px;
+}
+
+.header__navitem{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.header__navanchor{
+    color: rgb(192, 187, 187);
+    font-family: "Monda", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 33px;
+    line-height: 100%;
+}
+
+.header__navanchor:hover{
+    text-shadow: 0 0.1rem 0.4rem rgb(255, 0, 0);
+    font-size: 1rem;
+}
+
+.header__navanchor--activo{
+    text-shadow: 0rem 0.2rem 0.3rem rgb(255, 1, 1) ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 33px;
+    line-height: 100%;
+}
+
+.main__h1{
+    color: rgb(192, 187, 187);
+    font-family: "Monda", sans-serif;
+    text-align: right;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 4.4rem;
+    font-style: normal;
+    line-height: 104px;
+    line-height: 100%;
+    padding: 2rem;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 10rem;
+    text-align: center;
+
+    
+}
+
+.footer__contenedorbotones{
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+    
+}
+
+.footer__contenedor{
+    height: 50%;
+    
+}
+
+.footer__anchor{
+    color: rgb(192, 187, 187);
+    font-family: "Monda", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.contenedor__mainh2{
+    padding: 1rem;
+}
+
+.main__h2{
+    color: rgb(236, 232, 232);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    text-decoration:solid;
+    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 100%;
+}
+
+
+.main__h2:hover{
+    box-shadow: 0rem 0.1rem 0.6rem rgb(255, 0, 0);
+    font-size: 3.1rem;
+}
+
+.main__formh2claro{
+    color: rgb(236, 232, 232);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    text-decoration:solid;
+    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 100%;
+    background-color: rgba(0, 0, 0, 0.375);
+}
+
+/*FINALIZA METODOLOGIA BEM*/
+
+
+/*INICIA CLASES EN index*/
+.contenedor__index{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.section__index{
+    min-height: 100vh;
+    background-image: url(../img/lover_inicio.png);
+    background-size: cover;
+}
+/*FINALIZA CLASES EN index*/
+
+
+
+
+/*INICIA CLASES EN biogafia*/
+.contenedor__generalbio{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.mainbio{
+    min-height: 100vh;
+    background-image: url(../img/fondocuero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.main__divbio{
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main__p{
+    color: rgb(192, 187, 187);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    text-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.466) ;
+        
+}
+/*FINALIZA CLASES EN biogafia*/
+
+/*INICIA CLASES EN musica*/
+.contenedor__generalmusica{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contenedor__main{
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainmusica{
+    min-height: 100vh;
+    background-image: url(../img/fondomusica.png);
+    background-size: cover;
+}
+
+.main__h2musica{
+    color: rgb(236, 232, 232);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    text-decoration:solid;
+    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.main__divmusic{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.main__imgmusica{
+    background-color: rgba(255, 255, 255, 0.634);
+    border-radius: 50px;
+    box-shadow: 0 0.3rem 0.05rem rgba(58, 54, 54, 0.644);
+}
+
+.main__imgmusica:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(255, 0, 0);
+}
+/*FINALIZA CLASES EN musica*/
+
+/*INICIA CLASES EN video*/
+.contenedor__generalvideos{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+.mainvideo{
+    min-height: 100vh;
+    background-image: url(../img/fondofuego.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: rgb(192, 187, 187);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+.main__contenedor__peque{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.main__contenedor{
+    display: flex;
+    min-height: 90vh;
+    gap: 1rem;
+    justify-content: center;
+}
+.video__link{
+    box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.695) ;
+}
+
+.tam__chico{
+    width: 200px;
+    height: 200px;
+}
+.tam__grande{
+    width: 650px;
+    height: 410px;
+}
+    
+
+/*FINALIZA CLASES EN video*/
+
+/*INICIA CLASES EN merchoficial*/
+
+.contenedor__generalmerch{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contenedor__mainmerchtodo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.imagen__merch{
+    height: 400px;
+    width: 900px;   
+}
+
+.main__achortienda{
+    color: rgb(236, 232, 232);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    text-decoration:solid;
+    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.main__achortienda:hover{
+    text-shadow: 0 0.1rem 0.9rem rgb(255, 0, 0);
+}
+
+/*FINALIZA CLASES EN merchoficial*/
+
+/*INICIA CLASES EN contacto*/
+
+.contenedor__generalcontacto{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.maincontacto{
+    min-height: 100vh;
+    background-image: url(../img/fondo_contacto.png);
+    background-size: cover;
+}
+
+.contenedor__centradomainflex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor__contactocentrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 60vh;
+
+
+}
+
+.form{
+    text-align: center;
+}
+
+.main__formh2{
+    color: rgb(236, 232, 232);
+    font-family: "Monda", sans-serif;
+    text-align: center;
+    text-decoration:solid;
+    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.form__input{
+    padding: 1rem;
+    margin: 11px;
+    border-radius: 1rem;
+    border: 1px;
+    box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.695) ;
+}
+
+.form__botton{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-color: red;
+    box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.3) ;
+    font-size: 2rem;
+    color: rgb(226, 225, 225);
+    text-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+    cursor:pointer;
+    background-color:rgba(0, 0, 0, 0.352)
+    
+}
+
+.form__botton:hover{
+box-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+}
+
+.contenedor__logosredes{
+    text-align: center;
+    background-color: black;
+}
+
+.anchordiv__redestext{
+color: rgb(255, 255, 255);
+font-size: 2rem;
+text-shadow: 0rem 0rem 0.5rem rgb(251, 1, 1) ;
+}
+
+.anchordiv__redestext:hover{
+    text-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+    }
+
+/*FINALIZA CLASES EN contacto*/
+
+
+
+/*INICIA CLASES EN galeria*/
+.contenedor__generalgaleria{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.maingaleria{
+    min-height: 100vh;
+    background-image: url(../img/fondo_fuego.png);
+    background-size: cover;
+}
+
+.contenedor__primerreglon{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+
+.contenedor__galeria-xxl{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contenedor__galeria-xl{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.contenedor__galeria-s{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+
+
+.imagen__galeriaxxl{
+    width: 610px;
+    height: 410px;
+    box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+    transition: height 1.5s, width 1.5s
+}
+
+.imagen__galeriaxxl:hover{
+    width: 660px;
+    height: 460px;
+    cursor: pointer;
+    box-shadow: 3rem 3rem 3rem rgb(0, 0, 0) ;
+}
+
+.imagenes__galeria{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+    transition: height 1.5s, width 1.5s
+}
+
+.imagenes__galeria:hover{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
+    
+}
+
+/*FINALIZA CLASES EN galeria*/
+
+/*inicia Media Queri*/  
+
+@media screen and (max-width: 769px){
+    .header{
+        flex-direction: column;
+        justify-content: center ;
+    }
+
+    .main__h1{
+        text-align: center;
+        padding: 2rem;
+
+    }
+
+    .contenedor__mainh2:hover{
+        text-shadow: 0rem 0.1rem 0.6rem rgb(255, 0, 0);
+        font-size: 3.1rem;
+    }
+
+    .main__contenedor {
+        min-height: 50vh;
+        padding: 1rem;
+    }
+
+    .tam__grande {
+        width: 450px;
+        height: 416px;
+    }
+
+    .tam__chico {
+        width: 200px;
+        height: 200px;
+    }
+
+    .imagen__merch{
+        height: 350px;
+        width: 700px;   
+    }
+
+    .imagen__galeriaxxl{
+        width: 510px;
+        height: 310px;
+        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+        transition: height 1.5s, width 1.5s
+    }
+    
+    .imagen__galeriaxxl:hover{
+        width: 560px;
+        height: 360px;
+        cursor: pointer;
+        box-shadow: 3rem 3rem 3rem rgb(0, 0, 0) ;
+    }
+    
+    .imagenes__galeria{
+        width: 190px;
+        height: 149px;
+        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+        transition: height 1.5s, width 1.5s
+    }
+    .imagenes__galeria:hover{
+        width: 220px;
+        height: 160px;
+        cursor: pointer;
+        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
+        
+    }
+
+    .imagenes__galeriatab{
+        width: 230px;
+        height: 200px;
+        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+        transition: height 1.5s, width 1.5s
+    }
+
+    .imagenes__galeriatab:hover{
+        width: 250px;
+        height: 220px;
+        cursor: pointer;
+        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
+
+    }
+}
+
+@media screen and (max-width: 426px){
+    .header{
+        flex-direction: column;
+        justify-content: center ;
+    }
+
+    .header__nav{
+        text-align: center;
+    }
+
+    .main__h1{
+        text-align: center;
+        padding: 2rem;
+        font-size: 3rem;
+
+    }
+    .section__index {
+        min-height: 100vh;
+        background-image: url(../img/fondo-celu-index.jpg);
+        background-position: bottom;
+        background-size:contain;
+    }
+
+    .main__p {
+        font-size: 1rem;
+    }
+
+    .mainbio {
+        background-image: url(../img/fondo-celu-bio.jpg);
+    }
+
+    .main__h2 {
+        font-size: 1.3rem;
+    }
+    .main__h2:hover {
+        box-shadow: none;
+        text-shadow: 0rem 0.1rem 1rem rgb(255 0 0);
+        font-size: 1.3rem;
+    }
+    .main__formh2claro{
+        font-size: 1.6rem;
+    }
+
+    .main__imgmusica {
+        height: 5rem;
+        margin: 5px;
+    }
+
+    .contenedor__mainh2:hover{
+        text-shadow: none;
+        font-size: 2.1rem;
+    }
+
+    .main__contenedor {
+        min-height: 50vh;
+        display: grid;
+    }
+
+    .main__contenedor__peque{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 1rem;
+    }
+
+    .tam__grande {
+        width: 300px;
+        height: 210px;
+    }
+
+    .tam__chico {
+        width: 148px;
+        height: 120px;
+    }
+
+    .imagen__merch {
+        height: 227px;
+        width: 318px;
+    }
+
+    .contenedor__primerreglon {
+        display: grid;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contenedor__galeria-s{
+        flex-direction: row;
+    }
+    .contenedor__galeria-xl {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen__galeriaxxl{
+        width: 310px;
+        height: 210px;
+        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+        transition: height 1.5s, width 1.5s
+    }
+    
+    .imagen__galeriaxxl:hover{
+        width: 310px;
+        height: 210px;
+        cursor: pointer;
+        box-shadow: 3rem 3rem 3rem rgb(0, 0, 0) ;
+    }
+    
+    .imagenes__galeria{
+        width: 150px;
+        height: 100px;
+        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+        transition: height 1.5s, width 1.5s
+    }
+    .imagenes__galeria:hover{
+        width: 150px;
+        height: 100px;
+        cursor: pointer;
+        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
+        
+    }
+
+    .imagenes__galeriatab{
+        width: 310px;
+        height: 210px;
+        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
+        transition: height 1.5s, width 1.5s
+    }
+    .imagenes__galeriatab:hover{
+        width: 310px;
+        height: 210px;
+        cursor: pointer;
+        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
+
+    }
+
+    .mainvideo {
+        min-height: 60vh;
+    }
+
+    .footer__anchor {
+        font-size: 0.9rem;
+        
+    }
+}
+
+
+/*finaliza Media Queri*/
