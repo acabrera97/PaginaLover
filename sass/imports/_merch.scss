@@ -5,10 +5,14 @@
     flex-direction: column;
     gap: 1rem;
 
-    .imagen__merch{
-        height: 400px;
-        width: 900px;   
+    .contenedorgeneralmerch .imagen__merch {
+        height: 800PX;
+        width: 700px;
     }
+}
+
+.carruselback{
+    background-color: rgba(0, 0, 0, 0.373);
 }
 
 /*FINALIZA CLASES EN merchoficial*/

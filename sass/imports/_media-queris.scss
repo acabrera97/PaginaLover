@@ -41,7 +41,7 @@
     .text__h1{
         text-align: center;
         padding: 2rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
 
     }
     .section__index {
@@ -60,7 +60,7 @@
     }
 
     .h2textlink {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     
@@ -71,11 +71,11 @@
     .divtext_h2link {
         text-align: center;
         padding: 0rem;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .divtext_h2link:hover{
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
     .mainvideo {
     min-height: 80vh;
@@ -100,8 +100,12 @@
     }
 
     .contenedorgeneralmerch .imagen__merch {
-        height: 205px;
+        height: 350px;
         width: 310px;
+    }
+
+    .video__link{
+        box-shadow: 0rem 2rem 3.5rem rgba(255, 0, 0, 0.79) ;
     }
 
     .contenedorgeneralct {
