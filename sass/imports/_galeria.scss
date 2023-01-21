@@ -1,73 +1,7 @@
 /*INICIA CLASES EN galeria*/
-.contenedor__generalgaleria{
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-
 .maingaleria{
     min-height: 100vh;
     background-image: url(../img/fondo_fuego.png);
     background-size: cover;
 }
-
-.contenedor__primerreglon{
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-bottom: 1rem;
-    
-}
-
-.contenedor__galeria-xxl{
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.contenedor__galeria-xl{
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-bottom: 3rem;
-}
-
-.contenedor__galeria-s{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: flex-start;
-}
-
-
-
-.imagen__galeriaxxl{
-    width: 610px;
-    height: 410px;
-    box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-    transition: height 1.5s, width 1.5s
-}
-
-.imagen__galeriaxxl:hover{
-    width: 660px;
-    height: 460px;
-    cursor: pointer;
-    box-shadow: 3rem 3rem 3rem rgb(0, 0, 0) ;
-}
-
-.imagenes__galeria{
-    width: 300px;
-    height: 200px;
-    box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-    transition: height 1.5s, width 1.5s
-}
-
-.imagenes__galeria:hover{
-    width: 350px;
-    height: 250px;
-    cursor: pointer;
-    box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
-    
-}
-
 /*FINALIZA CLASES EN galeria*/

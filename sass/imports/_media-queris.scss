@@ -1,83 +1,30 @@
 /*inicia Media Queri*/  
 
 @media screen and (max-width: 769px){
-    .header{
-        flex-direction: column;
-        justify-content: center ;
+    .section__index {
+        min-height: 0vh;
     }
 
-    .main__h1{
-        text-align: center;
-        padding: 2rem;
-
+    .divmusicanchor__img {
+        margin: 0.2rem;
     }
-
-    .contenedor__mainh2:hover{
-        text-shadow: 0rem 0.1rem 0.6rem rgb(255, 0, 0);
-        font-size: 3.1rem;
-    }
-
-    .main__contenedor {
-        min-height: 50vh;
-        padding: 1rem;
-    }
-
-    .tam__grande {
+   
+    .contenedorvideos .tam__grande {
         width: 450px;
-        height: 416px;
+        height: 280px;
     }
 
-    .tam__chico {
-        width: 200px;
-        height: 200px;
+    .contenedorvideos .tam__chico {
+        width: 154px;
+        height: 132px;
+    }
+    .contenedorvideos {
+        min-height: 80vh;
     }
 
-    .imagen__merch{
-        height: 350px;
-        width: 700px;   
-    }
-
-    .imagen__galeriaxxl{
-        width: 510px;
-        height: 310px;
-        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-        transition: height 1.5s, width 1.5s
-    }
-    
-    .imagen__galeriaxxl:hover{
-        width: 560px;
-        height: 360px;
-        cursor: pointer;
-        box-shadow: 3rem 3rem 3rem rgb(0, 0, 0) ;
-    }
-    
-    .imagenes__galeria{
-        width: 190px;
-        height: 149px;
-        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-        transition: height 1.5s, width 1.5s
-    }
-    .imagenes__galeria:hover{
-        width: 220px;
-        height: 160px;
-        cursor: pointer;
-        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
-        
-    }
-
-    .imagenes__galeriatab{
-        width: 230px;
-        height: 200px;
-        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-        transition: height 1.5s, width 1.5s
-    }
-
-    .imagenes__galeriatab:hover{
-        width: 250px;
-        height: 220px;
-        cursor: pointer;
-        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
-
+    .contenedorgeneralmerch .imagen__merch {
+        height: 400px;
+        width: 756px;
     }
 }
 
@@ -91,10 +38,10 @@
         text-align: center;
     }
 
-    .main__h1{
+    .text__h1{
         text-align: center;
         padding: 2rem;
-        font-size: 3rem;
+        font-size: 2rem;
 
     }
     .section__index {
@@ -104,7 +51,7 @@
         background-size:contain;
     }
 
-    .main__p {
+    .mainbio__divp {
         font-size: 1rem;
     }
 
@@ -112,119 +59,53 @@
         background-image: url(../img/fondo-celu-bio.jpg);
     }
 
-    .main__h2 {
-        font-size: 1.3rem;
-    }
-    .main__h2:hover {
-        box-shadow: none;
-        font-size: 1.3rem;
-    }
-    .main__formh2claro{
-        font-size: 1.6rem;
+    .h2textlink {
+        font-size: 1.8rem;
     }
 
-    .main__imgmusica {
-        height: 5rem;
-        margin: 5px;
-    }
-
-    .contenedor__mainh2:hover{
-        text-shadow: none;
-        font-size: 2.1rem;
-    }
-
-    .main__contenedor {
-        min-height: 50vh;
-        display: grid;
-    }
-
-    .main__contenedor__peque{
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 1rem;
-    }
-
-    .tam__grande {
-        width: 300px;
-        height: 210px;
-    }
-
-    .tam__chico {
-        width: 148px;
-        height: 120px;
-    }
-
-    .imagen__merch {
-        height: 227px;
-        width: 318px;
-    }
-
-    .contenedor__primerreglon {
-        display: grid;
-        gap: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .contenedor__galeria-s{
-        flex-direction: row;
-    }
-    .contenedor__galeria-xl {
-        display: flex;
-        gap: 1rem;
-        margin-bottom: 3rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .imagen__galeriaxxl{
-        width: 310px;
-        height: 210px;
-        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-        transition: height 1.5s, width 1.5s
-    }
     
-    .imagen__galeriaxxl:hover{
-        width: 310px;
-        height: 210px;
-        cursor: pointer;
-        box-shadow: 3rem 3rem 3rem rgb(0, 0, 0) ;
-    }
-    
-    .imagenes__galeria{
-        width: 150px;
-        height: 100px;
-        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-        transition: height 1.5s, width 1.5s
-    }
-    .imagenes__galeria:hover{
-        width: 150px;
-        height: 100px;
-        cursor: pointer;
-        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
-        
+    .divmusicanchor__img {
+        margin: 0.2rem;
     }
 
-    .imagenes__galeriatab{
-        width: 310px;
-        height: 210px;
-        box-shadow: 0rem 0.2rem 0.5rem rgb(0, 0, 0);
-        transition: height 1.5s, width 1.5s
-    }
-    .imagenes__galeriatab:hover{
-        width: 310px;
-        height: 210px;
-        cursor: pointer;
-        box-shadow: 0rem 3rem 3rem 3rem rgb(0, 0, 0) ;
-
+    .divtext_h2link {
+        text-align: center;
+        padding: 0rem;
+        font-size: 1.8rem;
     }
 
+    .divtext_h2link:hover{
+        font-size: 1.9rem;
+    }
     .mainvideo {
-        min-height: 60vh;
+    min-height: 80vh;
     }
 
-    .footer__anchor {
-        font-size: 0.9rem;
+    .contenedorvideos {
+        display: grid;
+        min-height: 0vh;
+    }
+    .contenedorvideos .tam__grande {
+        width: 313px;
+        height: 200px;
+    }
+
+    .contenedorvideos__peque {
+        display: block; 
         
+    }
+    .contenedorvideos .tam__chico {
+        width: 154px;
+        height: 132px;
+    }
+
+    .contenedorgeneralmerch .imagen__merch {
+        height: 205px;
+        width: 310px;
+    }
+
+    .contenedorgeneralct {
+        min-height: 80vh;
     }
 }
 

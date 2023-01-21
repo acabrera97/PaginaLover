@@ -1,88 +1,67 @@
 /*INICIA CLASES EN contacto*/
 
-.contenedor__generalcontacto{
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-
 .maincontacto{
     min-height: 100vh;
     background-image: url(../img/fondo_contacto.png);
     background-size: cover;
 }
 
-.contenedor__centradomainflex{
+.contenedorgeneralct{
     display: flex;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-}
 
-.contenedor__contactocentrado{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 60vh;
+    .contenedorformulario{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 60vh;
 
+        .form{
+            text-align: center;
 
-}
+            .form__input{
+                padding: 1rem;
+                margin: 11px;
+                border-radius: 1rem;
+                border: 1px;
+                box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.695) ;
+            }
 
-.form{
-    text-align: center;
-}
+            .form__botton{
+                padding: 1rem;
+                margin: 1rem;
+                border-radius: 1rem;
+                border-color: red;
+                box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.3) ;
+                font-size: 2rem;
+                color: rgb(226, 225, 225);
+                text-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+                cursor:pointer;
+                background-color:rgba(0, 0, 0, 0.352);
 
-.main__formh2{
-    color: rgb(236, 232, 232);
-    font-family: "Monda", sans-serif;
-    text-align: center;
-    text-decoration:solid;
-    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
-    font-weight: bold;
-    font-size: 3rem;
-    font-style: normal;
-    line-height: 100%;
-}
-
-.form__input{
-    padding: 1rem;
-    margin: 11px;
-    border-radius: 1rem;
-    border: 1px;
-    box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.695) ;
-}
-
-.form__botton{
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    border-color: red;
-    box-shadow: 0rem 0.2rem 0.5rem rgba(255, 0, 0, 0.3) ;
-    font-size: 2rem;
-    color: rgb(226, 225, 225);
-    text-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
-    cursor:pointer;
-    background-color:rgba(0, 0, 0, 0.352)
-    
-}
-
-.form__botton:hover{
-box-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+                &:hover{
+                    box-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+                    }
+            }
+        }
+    }
 }
 
 .contenedor__logosredes{
     text-align: center;
     background-color: black;
-}
 
-.anchordiv__redestext{
-color: rgb(255, 255, 255);
-font-size: 2rem;
-text-shadow: 0rem 0rem 0.5rem rgb(251, 1, 1) ;
-}
-
-.anchordiv__redestext:hover{
-    text-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+    .anchordiv__redestext{
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        text-shadow: 0rem 0rem 0.5rem rgb(251, 1, 1) ;
+        
+        &:hover{
+            text-shadow: 0rem 0.2rem 0.5rem rgba(255, 1, 1, 1) ;
+        }
     }
+}
 
 /*FINALIZA CLASES EN contacto*/

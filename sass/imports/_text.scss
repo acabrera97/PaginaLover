@@ -1,10 +1,10 @@
-.main__h1{
+.text__h1{
     color: rgb(192, 187, 187);
     font-family: "Monda", sans-serif;
     text-align: right;
     text-decoration: none;
     font-weight: normal;
-    font-size: 4.4rem;
+    font-size: 4rem;
     font-style: normal;
     line-height: 104px;
     line-height: 100%;
@@ -13,29 +13,33 @@
 
 
 
-.contenedor__mainh2{
+.divtext{
     padding: 1rem;
+
+    &_h2link{
+        color: rgb(236, 232, 232);
+        font-family: "Monda", sans-serif;
+        text-align: center;
+        text-decoration:solid;
+        text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
+        font-weight: bold;
+        font-size: 3rem;
+        font-style: normal;
+        line-height: 100%;
+
+        &:hover{
+            text-shadow: 0.4rem 0.1rem 0.6rem rgb(255, 0, 0);
+            font-size: 3.1rem;
+        }
+    }
 }
 
-.main__h2{
-    color: rgb(236, 232, 232);
-    font-family: "Monda", sans-serif;
-    text-align: center;
-    text-decoration:solid;
-    text-shadow: 0rem 0.2rem 0.5rem rgb(255, 1, 1) ;
-    font-weight: bold;
-    font-size: 3rem;
-    font-style: normal;
-    line-height: 100%;
-}
 
 
-.main__h2:hover{
-    box-shadow: 0rem 0.1rem 0.6rem rgb(255, 0, 0);
-    font-size: 3.1rem;
-}
 
-.main__formh2claro{
+
+
+.h2textlink{
     color: rgb(236, 232, 232);
     font-family: "Monda", sans-serif;
     text-align: center;
@@ -47,3 +51,4 @@
     line-height: 100%;
     background-color: rgba(0, 0, 0, 0.375);
 }
+
