@@ -92,7 +92,8 @@
 .contenedor__general {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto; }
+  grid-template-rows: auto 1fr auto;
+  padding: 0px; }
 
 /*INICIA CLASES EN index*/
 .section__index {
@@ -167,7 +168,7 @@
     gap: 1rem;
     justify-content: center; }
     .contenedorvideos__peque .video__link {
-      box-shadow: 0rem 2rem 4.5rem rgba(255, 0, 0, 0.79);
+      box-shadow: 0rem 2rem 4.5rem rgba(255, 123, 0, 0.222);
       border: 2px solid rgba(0, 0, 0, 0.729); }
   .contenedorvideos .tam__chico {
     width: 200px;
@@ -185,6 +186,10 @@
   .contenedorgeneralmerch .contenedorgeneralmerch .imagen__merch {
     height: 800PX;
     width: 700px; }
+
+.imagen__merch {
+  height: 405px;
+  width: 515px; }
 
 .carruselback {
   background-color: rgba(0, 0, 0, 0.373); }
@@ -279,8 +284,8 @@
   .contenedorvideos {
     min-height: 80vh; }
   .contenedorgeneralmerch .imagen__merch {
-    height: 400px;
-    width: 756px; } }
+    height: 405px;
+    width: 515px; } }
 
 @media screen and (max-width: 426px) {
   .header {
@@ -325,8 +330,8 @@
     width: 154px;
     height: 132px; }
   .contenedorgeneralmerch .imagen__merch {
-    height: 350px;
-    width: 310px; }
+    height: 285px;
+    width: 342px; }
   .video__link {
     box-shadow: 0rem 2rem 3.5rem rgba(255, 0, 0, 0.79); }
   .contenedorgeneralct {
