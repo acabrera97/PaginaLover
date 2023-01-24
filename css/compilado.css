@@ -70,12 +70,12 @@
     text-decoration: solid;
     text-shadow: 0rem 0.2rem 0.5rem #ff0101;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style: normal;
     line-height: 100%; }
     .divtext_h2link:hover {
       text-shadow: 0.4rem 0.1rem 0.6rem red;
-      font-size: 3.1rem; }
+      font-size: 2.6rem; }
 
 .h2textlink {
   color: #ece8e8;
@@ -84,7 +84,7 @@
   text-decoration: solid;
   text-shadow: 0rem 0.2rem 0.5rem #ff0101;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-style: normal;
   line-height: 100%;
   background-color: rgba(0, 0, 0, 0.375); }
@@ -188,7 +188,7 @@
     width: 700px; }
 
 .imagen__merch {
-  height: 405px;
+  height: 375px;
   width: 515px; }
 
 .carruselback {
@@ -296,7 +296,7 @@
   .text__h1 {
     text-align: center;
     padding: 2rem;
-    font-size: 1.5rem; }
+    font-size: 3rem; }
   .section__index {
     min-height: 100vh;
     background-image: url(../img/fondo-celu-index.jpg);
