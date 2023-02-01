@@ -40,8 +40,8 @@
 
     .text__h1{
         text-align: center;
-        padding: 2rem;
-        font-size: 3rem;
+        padding-top: 2rem;
+        font-size: 1.5rem;
 
     }
     .section__index {
@@ -52,7 +52,11 @@
     }
 
     .mainbio__divp {
-        font-size: 1rem;
+        font-size: 0.6rem;
+    }
+    .mainbio__div {
+         min-height: 0vh;
+        
     }
 
     .mainbio {
@@ -60,7 +64,7 @@
     }
 
     .h2textlink {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     
@@ -71,11 +75,11 @@
     .divtext_h2link {
         text-align: center;
         padding: 0rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .divtext_h2link:hover{
-        font-size: 1.6rem;
+        font-size: 1.1rem;
     }
     .mainvideo {
     min-height: 80vh;
@@ -100,8 +104,8 @@
     }
 
     .contenedorgeneralmerch .imagen__merch {
-        height: 285px;
-        width: 342px;
+        height: 250px;
+        width: 300px;
     }
 
     .video__link{
